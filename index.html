@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Boss Inc.</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFE4C4;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #FFE4C4;
+            color: rgb(0,0,0);
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .logo {
+            margin-top: 20px;
+            max-width: 180px;
+            height: auto;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            color: #0b5a5e;
+            margin-bottom: 15px;
+        }
+
+        .framework-text,
+        .founder-text,
+        .google-form-box {
+            background: #FFE4C4;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .framework-text {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .framework-text p {
+            margin-bottom: 16px;
+        }
+
+        .framework-text ul {
+            margin: 16px 0 16px 25px;
+        }
+
+        .framework-text li {
+            margin-bottom: 10px;
+        }
+
+        .testimonial-image {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 20px auto 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .slideshow-container {
+            position: relative;
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+
+        .slide {
+            display: none;
+        }
+
+        .slide img {
+            width: 100%;
+            max-height: 500px;
+            object-fit: contain;
+            border-radius: 10px;
+        }
+
+        .active {
+            display: block;
+        }
+
+        .slideshow-buttons {
+            margin-top: 15px;
+        }
+
+        .slideshow-buttons button {
+            padding: 10px 18px;
+            margin: 0 10px;
+            border: none;
+            background-color: #0b5a5e;
+            color: white;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .slideshow-buttons button:hover {
+            background-color: #0b5a5e;
+        }
+
+        .founder-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            align-items: center;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .founder-headshot {
+            max-width: 250px;
+            width: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        .founder-text {
+            flex: 1;
+            box-shadow: none;
+            padding: 0;
+            background: transparent;
+        }
+
+        .google-form-box {
+            text-align: center;
+        }
+
+        .google-form-box a {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 20px;
+            background-color: #0b5a5e;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        .google-form-box a:hover {
+            background-color: #0b5a5e;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #eee;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .founder-section {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .founder-text {
+                padding-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Be the BOSS of Your Brain</h1>
+        <img src="brainbosslogo.jpg" alt="Brain Boss Inc. Logo" class="logo">
+    </header>
+
+    <!-- Framework Section -->
+<section>
+    <h2>Framework</h2>
+    <div class="framework-text">
+        <p><strong>A Framework Integrating Brain Science, Executive Function, and Life Design</strong></p>
+
+        <p>
+            The <em>Be the Boss of Your Brain</em> program is grounded in an interdisciplinary framework
+            that integrates neuroscience, executive function development, social-emotional learning,
+            and life design principles. The goal is to help students develop self-awareness, cognitive
+            control, and purposeful direction so they can become active designers of their learning
+            and their lives.
+        </p>
+
+        <p>
+            This framework recognizes that adolescence is a critical developmental period during which
+            the brain’s prefrontal cortex is still developing. The prefrontal cortex is responsible for
+            remembering, planning, decision-making, emotional regulation, and self-reflection. Research
+            in developmental psychology and neuroscience shows that when students understand how their
+            brains work, they are better able to regulate behavior, manage stress, and apply effective
+            learning strategies.
+        </p>
+
+        <p>
+            Teaching students about neuroplasticity, executive function, and the brain-body connection
+            empowers them to take ownership of their thinking and behavior.
+        </p>
+
+        <p>
+            At the core of the program is the development of executive function skills, which include
+            planning, organization, working memory, cognitive flexibility, time management, and
+            self-monitoring. These skills allow students to translate goals into action. Explicit
+            instruction in executive function, combined with practical strategies such as time
+            management systems, study techniques, and reflective practices, strengthens students’
+            capacity to navigate academic and personal challenges.
+        </p>
+
+        <p>
+            The program also draws on social-emotional learning (SEL) principles, particularly the
+            development of self-awareness, self-management, and relationship skills. Students explore
+            the role of emotions, stress, belonging, and community in shaping attention, motivation,
+            and well-being. Through practices such as mindfulness, breathing, and reflective dialogue,
+            students develop tools to regulate mood, reduce anxiety, and maintain focus.
+        </p>
+
+        <p>
+            A key component of the framework is the connection to life design thinking, developed
+            through work at Stanford University. Life design applies principles of design thinking—
+            curiosity, experimentation, reframing, and reflection—to help individuals explore meaningful
+            futures. Rather than expecting students to determine a single predetermined path, life design
+            encourages them to test ideas, reflect on experiences, and iteratively build lives that align
+            with their values, interests, and strengths.
+        </p>
+
+        <p>
+            The <em>Be the Boss of Your Brain</em> program operationalizes these principles through a
+            developmental sequence that encourages students to understand and manage multiple dimensions
+            of their lives:
+        </p>
+
+        <ul>
+            <li><strong>Be the Boss of Your Brain</strong> – Understanding neuroscience, neuroplasticity, and executive function</li>
+            <li><strong>Be the Boss of Your Mood</strong> – Developing emotional awareness and growth mindset</li>
+            <li><strong>Be the Boss of Your Body</strong> – Recognizing the impact of sleep, nutrition, routines, and stress on cognitive functioning</li>
+            <li><strong>Be the Boss of Your Community</strong> – Building belonging, relationships, and gratitude</li>
+            <li><strong>Be the Boss of Your Time</strong> – Practicing planning, prioritizing, and overcoming procrastination</li>
+            <li><strong>Be the Boss of Your Study</strong> – Applying evidence-based learning strategies and metacognition</li>
+        </ul>
+
+        <p>
+            Through these experiences, students learn to monitor their thinking, experiment with
+            strategies, and reflect on their growth, strengthening both academic and personal agency.
+            The program culminates in reflective exercises that encourage students to articulate how
+            their thinking has evolved and how they will apply these insights moving forward.
+        </p>
+
+        <p>
+            Ultimately, the framework positions students not simply as learners responding to external
+            expectations, but as active participants in shaping their development and their futures.
+            By understanding the brain, practicing executive function, and applying life design
+            principles, students develop the capacity to navigate complexity, adapt to change, and
+            pursue lives of purpose and meaning.
+        </p>
+    </div>
+</section>
+
+    <!-- Testimonial Document Image -->
+    <section>
+        <h2>Testimonial</h2>
+        <img src="TestimonialDocument.jpg" alt="Testimonial Document" class="testimonial-image">
+    </section>
+
+    <!-- Slideshow of Workpapers -->
+    <section>
+        <h2>Workpapers</h2>
+        <div class="slideshow-container">
+            <div class="slide active">
+                <img src="wpplaceholder.webp" alt="Workpaper 1">
+            </div>
+            <div class="slide">
+                <img src="wpplaceholder.webp" alt="Workpaper 2">
+            </div>
+            <div class="slide">
+                <img src="wpplaceholder.webp" alt="Workpaper 3">
+            </div>
+
+            <div class="slideshow-buttons">
+                <button onclick="changeSlide(-1)">Previous</button>
+                <button onclick="changeSlide(1)">Next</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About the Founder -->
+    <section>
+        <h2>About the Founder</h2>
+        <div class="founder-section">
+            <img src="founderheadshot.jpg" alt="Founder Headshot" class="founder-headshot">
+            <div class="founder-text">
+                <p>
+                    Dr. Audra Cerruto is a New York State licensed psychologist, certified special education teacher, 
+                    and Associate Professor in the School of Education and Human Services at Molloy University. For 
+                    over 20 years, she has collaborated with schools and districts to develop innovative programs that 
+                    enhance the teaching and learning experience for educators, students, and families.
+                    
+                    Her Be the Boss of Your Brain program translates current research in brain science into practical 
+                    strategies that help individuals—whether children, teens, or adults—improve focus, manage stress, 
+                    and maximize cognitive and emotional potential. She has led initiatives funded by the Mother Cabrini 
+                    Foundation to embed social-emotional learning in academic lessons and has developed executive-function 
+                    programs to help students and families navigate today’s overstimulating environments.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Form Link Section -->
+    <section>
+        <h2>Get in Touch</h2>
+        <div class="google-form-box">
+            <p>
+                Ready to learn more or connect with Brain Boss Inc.? Fill out our form below.
+            </p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeAiKNeQd_n0NXtMAon-FltlmUPnFGPrzhauLBLYVioRmdyzg/viewform?usp=header" 
+               target="_blank">Open Google Form</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Brain Boss Inc. All rights reserved.</p>
+    </footer>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll(".slide");
+
+        function showSlide(index) {
+            slides.forEach(slide => slide.classList.remove("active"));
+            if (index >= slides.length) {
+                currentSlide = 0;
+            } else if (index < 0) {
+                currentSlide = slides.length - 1;
+            } else {
+                currentSlide = index;
+            }
+            slides[currentSlide].classList.add("active");
+        }
+
+        function changeSlide(direction) {
+            showSlide(currentSlide + direction);
+        }
+    </script>
+
+</body>
+</html>
